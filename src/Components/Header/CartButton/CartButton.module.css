@@ -1,0 +1,70 @@
+  
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: rgba(52, 79, 161, .88);
+    color: white;
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all ease-out .2s;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: rgba(52, 79, 161, 1);
+    transform: scale(1.04);
+    box-shadow: 0 1rem 3rem rgb(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+  }
+
+  .items {
+    background-color: #df5549;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+
+  .amount {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    min-width: 62px;
+  }
+  
+
+  /* makes the button pop out when you add this class to it, only plays once */
+  .bump {
+    animation: bump 300ms ease-out;
+  }
+  
+
+  /* animation */
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.93);
+    }
+    30% {
+      transform: scale(1.06);
+    }
+    50% {
+      transform: scale(1.11);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

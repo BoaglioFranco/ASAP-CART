@@ -1,0 +1,87 @@
+  
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item h3 {
+    margin: 0 0 0.25rem 0;
+  }
+
+  .price {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #df5549;
+    font-size: 1.25rem;
+  }
+
+  .buttonSuccess{
+    font-size: 1.5rem;
+    color: #5CB85C;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    padding: 0.5rem 1.3rem;
+    border-radius: 8px;
+    margin-right: 1rem;
+    transition: all ease-out .1s;
+  }
+  
+
+  .buttonSuccess:hover,
+  .buttonSuccess:active {
+    background-color: #5CB85C;
+    color: white;
+  }
+
+  .buttonSuccess:active {
+    transform: scale(.97);
+  }
+
+  .buttonDanger {
+    font-size: 1.5rem;
+    color: #D9534F;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    transition: all ease-out .1s;
+  }
+
+  .buttonDanger:enabled {
+    cursor: pointer;
+  }
+
+
+  .buttonDanger:hover:enabled,
+  .buttonDanger:active:enabled {
+    color: white;
+    background-color: #D9534F;
+  }
+
+  .buttonDanger:active {
+    transform: scale(.97);
+  }
+
+  .buttonDanger:disabled {
+    opacity: .5;
+    background-color: transparent;
+    cursor: default;
+  }
+
+  @media screen and (max-width:350px) {
+    .buttonDanger,
+    .buttonSuccess{
+      font-size: 1rem;
+    }
+    .buttonSuccess {
+      margin: 0.4rem;
+    }
+    .buttonDanger{
+      margin: .4rem
+    }
+  }
