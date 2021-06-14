@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ASAP-CART/static/css/main.64c1d704.chunk.css",
+    "main.js": "/ASAP-CART/static/js/main.fb10b3af.chunk.js",
+    "main.js.map": "/ASAP-CART/static/js/main.fb10b3af.chunk.js.map",
+    "runtime-main.js": "/ASAP-CART/static/js/runtime-main.57a58725.js",
+    "runtime-main.js.map": "/ASAP-CART/static/js/runtime-main.57a58725.js.map",
+    "static/js/2.284e0e9e.chunk.js": "/ASAP-CART/static/js/2.284e0e9e.chunk.js",
+    "static/js/2.284e0e9e.chunk.js.map": "/ASAP-CART/static/js/2.284e0e9e.chunk.js.map",
+    "index.html": "/ASAP-CART/index.html",
+    "static/css/main.64c1d704.chunk.css.map": "/ASAP-CART/static/css/main.64c1d704.chunk.css.map",
+    "static/js/2.284e0e9e.chunk.js.LICENSE.txt": "/ASAP-CART/static/js/2.284e0e9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57a58725.js",
+    "static/js/2.284e0e9e.chunk.js",
+    "static/css/main.64c1d704.chunk.css",
+    "static/js/main.fb10b3af.chunk.js"
+  ]
+}
